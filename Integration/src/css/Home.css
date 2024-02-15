@@ -1,0 +1,254 @@
+/* Home Styles */
+.wrapper {
+  position: relative;
+}
+
+.banner {
+  width: 100%;
+}
+.mobile-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px; /* Adjust padding as needed */
+  background-color: #333; /* Change background color as needed */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.logo-image {
+  width: 50px; /* Adjust the logo image width as needed */
+  height: auto;
+  margin-right: 10px;
+  /* background-image: url('https://pbs.twimg.com/profile_images/1217561906728357889/GN4SlxtY_400x400.jpg');  */
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ul li {
+  margin-right: 20px; /* Adjust margin between menu items as needed */
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+ul li a:hover {
+  color: #ffcc00; /* Change hover color as needed */
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  text-align: center;
+  /* margin-top: 50px; */
+  background-image: url("https://rare-gallery.com/mocahbig/75689-Love-HeartGift-4k-Ultra-HD-Wallpaper.jpg");
+  background-size: cover;
+  min-height: 100vh; /* Adjust margin as needed */
+}
+
+.content h1 {
+  font-size: 2rem;
+  color: #333; /* Change color as needed */
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #666; /* Change color as needed */
+}
+
+.content button {
+  background-color: #ffcc00; /* Change button background color as needed */
+  color: #333; /* Change button text color as needed */
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 1rem;
+  margin-top: 20px; /* Adjust margin as needed */
+  cursor: pointer;
+  border: none;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* justify-content: space-between; */
+}
+
+.search-bar-container {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+}
+
+.footer-links a {
+  color: white;
+  margin: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a:hover {
+  color: #ffcc00; /* Change hover color as needed */
+}
+
+.card-container {
+  margin: 10px;
+  padding-right: 5%; /* Add margin to the container to space out the cards */
+}
+
+/* .card-container .card {
+  width: 18rem;
+}
+
+.card-container2 .card {
+  width: 18rem;
+  margin: 10px; 
+
+}
+ */
+.about-me{
+  width: 80%;
+  
+ }
+ .title{
+  text-align: center;
+}
+ .title-word {
+  animation: color-animation 4s linear infinite;
+  /* margin-right: -180px; */
+}
+.title-word-1 {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  text-align: center;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 3vw;
+  text-transform: uppercase;
+}
+/* Add this to your existing styles */
+
+/* Content styles */
+/* .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  background-image: url("https://rare-gallery.com/mocahbig/75689-Love-HeartGift-4k-Ultra-HD-Wallpaper.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+} */1
+
+/* Left content styles */
+.left-content {
+  flex: 1;
+}
+
+/* Right container styles */
+.right-container {
+  flex: 1;
+  max-width: 300px;
+  margin-right: -4990px;
+  margin-top: 90px;
+  height: 420px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 15px;
+}
+
+/* Right container content styles */
+.rc-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.rc-content {
+  font-size: 1rem;
+  color: #666;
+  /* padding-left: 20%; */
+}
+ .Font-text {
+  text-align: center; 
+   /* margin-top: 20px;  */
+   margin-left: 220%; 
+   /* display: block; */
+
+ }  
